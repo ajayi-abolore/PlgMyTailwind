@@ -1,0 +1,10 @@
+{
+    "ltId": "178887701877152",
+    "packageName": "PlgMyTailwind",
+    "packageType": "plugin",
+    "version": "4",
+    "dependsOn": "",
+    "isPublished": "1",
+    "readme": "Tailwind Cdn",
+    "languageUsed": "tailwind\/css"
+}
