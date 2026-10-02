@@ -60,27 +60,24 @@ From your LifeTech OCMS Backend:
 
 ## Usage
 
-After installing **PlgMyTailwind**, Tailwind utility classes can be used
-in supported LifeTech OCMS content.
+Load the bundled script in your theme's head component or the page that needs Tailwind styling:
 
-``` html
-<div class="max-w-4xl mx-auto p-6">
-    <div class="rounded-xl shadow-lg p-6">
-        <h1 class="text-3xl font-bold">
-            Welcome to LifeTech OCMS
-        </h1>
-
-        <p class="mt-3 text-gray-600">
-            This interface is styled with Tailwind CSS.
-        </p>
-
-        <button class="mt-4 px-5 py-2 rounded-lg">
-            Get Started
-        </button>
-    </div>
-</div>
+```php
+<script src="<?= ltPluginPath() ?>/PlgMyTailwind/Services/tailwind_4_cdn.js"></script>
 ```
 
+Then add Tailwind utility classes to your HTML:
+
+```html
+<div class="rounded-xl bg-white p-6 shadow-md">
+    <h1 class="text-2xl font-bold text-blue-600">Welcome to LifeTechOCMS</h1>
+    <p class="mt-2 text-gray-600">Build your interface with Tailwind CSS utilities.</p>
+    <button class="mt-4 rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+        Get Started
+    </button>
+</div>
+```
+ 
 Tailwind classes can be used when developing:
 
 -   Themes
@@ -91,22 +88,6 @@ Tailwind classes can be used when developing:
 -   Layouts
 -   Other supported LifeTech OCMS content
 
-## Theme Development
-
-PlgMyTailwind is particularly useful when developing LifeTech OCMS
-themes.
-
-``` html
-<section class="container mx-auto px-4 py-10">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="p-6 rounded-xl shadow">
-            <h2 class="text-xl font-semibold">
-                LifeTech Component
-            </h2>
-        </div>
-    </div>
-</section>
-```
 
 This allows LifeTech theme developers to build responsive interfaces
 using Tailwind utility classes while keeping application functionality
@@ -116,9 +97,8 @@ within LifeTech OCMS.
 
 ``` text
 Package Name: PlgMyTailwind
-Package Type: Plugin
-Tailwind Version: v4
-Framework: LifeTech OCMS
+Package Type: Plugin 
+Framework: LifeTechOCMS
 Technology: Tailwind CSS
 ```
 
@@ -130,12 +110,6 @@ Clone the repository:
 
 ``` bash
 git clone https://github.com/ajayi-abolore/PlgMyTailwind.git
-```
-
-Enter the repository:
-
-``` bash
-cd PlgMyTailwind
 ```
 
 ## LifeTech OCMS Documentation
