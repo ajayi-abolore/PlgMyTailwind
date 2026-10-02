@@ -3,8 +3,10 @@
     "packageName": "PlgMyTailwind",
     "packageType": "plugin",
     "version": "4",
-    "dependsOn": "",
-    "isPublished": "1",
+    "dependsOn": [],
+    "isPublished": null,
     "readme": "Tailwind Cdn",
-    "languageUsed": "tailwind\/css"
+    "languageUsed": "tailwind\/css",
+    "description": "Taillwind",
+    "ltVersion": null
 }
