@@ -1,23 +1,23 @@
 # PlgMyTailwind
 
-**Tailwind CSS v4 Plugin for LifeTech OCMS**
+**Tailwind CSS v4 Plugin for LifeTech OCMS Framework**
 
 PlgMyTailwind provides **Tailwind CSS v4** integration for **LifeTech
 OCMS**, allowing developers to use Tailwind utility classes when
 building LifeTech OCMS themes, modules, plugins, components, layouts,
 and views.
 
-The plugin makes it easier to use Tailwind CSS within the LifeTech OCMS
+The plugin makes it easier to use Tailwind CSS within the LifeTechOCMS
 ecosystem.
 
 ## Features
 
 -   Tailwind CSS v4 integration
--   Designed specifically for LifeTech OCMS
--   Easy installation through the LifeTech OCMS backend
+-   Designed specifically for LifeTechOCMS framework
+-   Easy installation through the LifeTechOCMS backend
 -   Supports LifeTech themes, modules, and plugins
 -   Supports responsive Tailwind utility classes
--   Suitable for developing modern LifeTech OCMS user interfaces
+-   Suitable for developing modern LifeTechOCMS user interfaces
 
 ## Installation
 
@@ -66,7 +66,7 @@ Load the bundled script in your theme's head component or the page that needs Ta
 <script src="<?= ltPluginPath() ?>/PlgMyTailwind/Services/tailwind_4_cdn.js"></script>
 ```
 
-Then add Tailwind utility classes to your HTML:
+Then add **any** Tailwind utility classes to your HTML:
 
 ```html
 <div class="rounded-xl bg-white p-6 shadow-md">
